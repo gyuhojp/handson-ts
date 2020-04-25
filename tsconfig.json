@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "./built",
+      "allowJs": true,
+      "target": "es5",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*", "src/types/*"]
+      },
+      "lib": ["es2015"]
+    },
+    "include": ["./index.ts"]
+  }
